@@ -1,4 +1,4 @@
-mport random
+import random
 n=random.randint(1,100)
 while True:
     x=int(input("enter the value of x"))
