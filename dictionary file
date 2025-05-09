@@ -1,0 +1,22 @@
+#creating a dictionary
+person = {
+    "name": "Alice",
+    "age": 30,
+    "city":"New york"
+}
+
+#Accessing values
+print(person["name"]) #output: Alice
+
+#Adding a new key-value pair
+person["email"] = "alice@example.com"
+
+#updating a value
+person["age"] = 30
+
+#removing a key-value pair
+del person["city"]
+
+#Iterating through dictionary
+for key, value in person.items():
+    print(f"{key}: {value}")
